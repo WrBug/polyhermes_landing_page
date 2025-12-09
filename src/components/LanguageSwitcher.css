@@ -1,0 +1,59 @@
+.language-switcher {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.language-icon {
+  color: #333;
+  font-size: 16px;
+}
+
+.language-select {
+  min-width: 100px;
+}
+
+.language-select .ant-select-selector {
+  border: none !important;
+  box-shadow: none !important;
+  background: transparent !important;
+  padding: 0 !important;
+}
+
+.language-select .ant-select-selection-item {
+  color: #333;
+  font-weight: 500;
+  padding: 0 !important;
+}
+
+.language-select:hover .ant-select-selection-item {
+  color: #1890ff;
+}
+
+/* 移动端样式：只显示图标按钮，样式与图标按钮一致 */
+.language-switcher-mobile-button {
+  color: #333;
+  padding: 4px 8px;
+  min-width: auto;
+  font-size: 20px;
+}
+
+.language-switcher-mobile-button:hover {
+  color: #1890ff;
+  background: rgba(24, 144, 255, 0.1);
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    order: 3;
+    margin-right: 0;
+  }
+
+  .language-icon {
+    font-size: 14px;
+  }
+
+  .language-select {
+    min-width: 80px;
+  }
+}

@@ -1,0 +1,124 @@
+{
+  "header": {
+    "logo": "PolyHermes",
+    "features": "Features",
+    "tech": "Tech Stack",
+    "screenshots": "Screenshots",
+    "quickstart": "Quick Start",
+    "menu": "Menu",
+    "language": {
+      "zhCN": "简体中文",
+      "zhTW": "繁體中文",
+      "en": "English"
+    }
+  },
+  "meta": {
+    "title": "PolyHermes - Polymarket Copy Trading System",
+    "description": "PolyHermes - A powerful Polymarket prediction market copy trading system",
+    "keywords": "Polymarket, copy trading, prediction market, automated trading"
+  },
+  "hero": {
+    "badge": "🚀 Powerful Polymarket Copy Trading System",
+    "title": "PolyHermes",
+    "description": "A powerful Polymarket prediction market copy trading system, supporting automated copy trading, multi-account management, real-time order push, and statistical analysis.",
+    "deploy": "Quick Deploy",
+    "github": "GitHub",
+    "stats": {
+      "openSource": "Open Source",
+      "realtime": "Real-time",
+      "realtimeLabel": "WebSocket Push",
+      "secure": "Secure",
+      "secureLabel": "Encrypted Storage"
+    }
+  },
+  "features": {
+    "title": "Core Features",
+    "subtitle": "Complete Polymarket copy trading solution, from account management to order execution, all in one",
+    "accountManagement": {
+      "title": "Account Management",
+      "description": "Multi-account support, import multiple wallet accounts via private keys, unified management. Private keys and API credentials are encrypted and stored securely."
+    },
+    "leaderManagement": {
+      "title": "Leader Management",
+      "description": "Add wallet addresses of copy trading targets (Leaders), support filtering by category (sports/crypto), view trading history and statistics."
+    },
+    "template": {
+      "title": "Copy Trading Template",
+      "description": "Create copy trading templates, configure copy trading parameters. Support proportional and fixed amount copy trading, configure risk control parameters."
+    },
+    "config": {
+      "title": "Copy Trading Config",
+      "description": "Associate accounts, templates, and Leaders to create copy trading relationships. Real-time monitoring of Leader trades, automatically copying orders."
+    },
+    "orderManagement": {
+      "title": "Order Management",
+      "description": "View detailed information of all buy, sell, and matched orders, support filtering by account, Leader, time range, and other conditions."
+    },
+    "positionManagement": {
+      "title": "Position Management",
+      "description": "View and manage positions of all accounts in real-time, real-time position changes via WebSocket, support market and limit price selling."
+    },
+    "statistics": {
+      "title": "Statistical Analysis",
+      "description": "View global statistics, Leader statistics, category statistics, and copy trading relationship statistics, support filtering by time range."
+    },
+    "systemManagement": {
+      "title": "System Management",
+      "description": "Configure HTTP proxy through Web UI, real-time monitoring of API health status, manage users and view system announcements."
+    }
+  },
+  "tech": {
+    "title": "Tech Stack",
+    "subtitle": "Modern technology stack ensures high performance, security, and maintainability",
+    "backend": "Backend",
+    "frontend": "Frontend",
+    "features": "Features",
+    "items": {
+      "websocket": "WebSocket Real-time Push",
+      "encryption": "AES Encrypted Storage",
+      "responsive": "Responsive Design",
+      "i18n": "Multi-language Support",
+      "docker": "Docker Deployment"
+    }
+  },
+  "screenshots": {
+    "title": "Screenshots",
+    "subtitle": "Perfect support for desktop and mobile, providing a consistent user experience",
+    "desktop": "Desktop",
+    "mobile": "Mobile",
+    "preview": "Preview"
+  },
+  "quickstart": {
+    "title": "Quick Start",
+    "subtitle": "One-click deployment with Docker, get started in minutes",
+    "recommended": "Using Docker Hub Image (Recommended)",
+    "description": "Suitable for production environments, no need to download project code, just two files to deploy.",
+    "step1": "Download Config",
+    "step1Desc": "Download docker-compose.prod.yml and config files",
+    "step2": "Configure Environment",
+    "step2Desc": "Edit .env file, set database password and keys",
+    "step3": "Start Service",
+    "step3Desc": "Run docker-compose to start the service",
+    "step4": "Access System",
+    "step4Desc": "Open browser and access http://localhost",
+    "codeTitle": "Deployment Commands",
+    "copy": "Copy",
+    "copied": "Copied",
+    "copySuccess": "Code copied to clipboard",
+    "copyFailed": "Copy failed, please copy manually",
+    "viewDocs": "View Deployment Docs",
+    "githubRepo": "GitHub Repository",
+    "devDocs": "Development Docs"
+  },
+  "footer": {
+    "description": "A powerful Polymarket prediction market copy trading system",
+    "links": "Links",
+    "githubRepo": "GitHub Repository",
+    "devDocs": "Development Docs",
+    "polymarket": "Polymarket Official",
+    "followUs": "Follow Us",
+    "copyright": "© 2024 PolyHermes. Licensed under MIT.",
+    "disclaimer": "This software is for learning and research purposes only. Users bear all risks when using this software for trading."
+  }
+}
+
