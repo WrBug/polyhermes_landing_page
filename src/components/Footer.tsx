@@ -63,7 +63,7 @@ const Footer: React.FC = () => {
                   <GithubOutlined style={{ fontSize: 24 }} />
                 </Link>
                 <Link
-                  href="https://x.com/quant_tr"
+                  href="https://x.com/polyhermes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="footer-icon"

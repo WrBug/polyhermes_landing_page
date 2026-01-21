@@ -63,6 +63,11 @@ const Features: React.FC = () => {
       titleKey: 'features.systemManagement.title',
       descriptionKey: 'features.systemManagement.description',
     },
+    {
+      icon: <SwapOutlined />,
+      titleKey: 'features.systemUpdate.title',
+      descriptionKey: 'features.systemUpdate.description',
+    },
   ]
 
   return (

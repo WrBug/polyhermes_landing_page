@@ -65,6 +65,10 @@
     "systemManagement": {
       "title": "System Management",
       "description": "Configure HTTP proxy through Web UI, real-time monitoring of API health status, manage users and view system announcements."
+    },
+    "systemUpdate": {
+      "title": "System Update",
+      "description": "Support online system updates, no need to restart Docker container to complete updates. Automatic backup and rollback to ensure system stability."
     }
   },
   "tech": {

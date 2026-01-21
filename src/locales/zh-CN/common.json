@@ -65,6 +65,10 @@
     "systemManagement": {
       "title": "系统管理",
       "description": "通过 Web UI 配置 HTTP 代理，实时监控 API 健康状态，管理用户和查看系统公告。"
+    },
+    "systemUpdate": {
+      "title": "系统更新",
+      "description": "支持在线系统更新，无需重启 Docker 容器即可完成更新。自动备份和回滚，确保系统稳定性。"
     }
   },
   "tech": {

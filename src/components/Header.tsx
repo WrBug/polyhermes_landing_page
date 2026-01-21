@@ -58,7 +58,7 @@ const Header: React.FC = () => {
                 <Button
                   type="text"
                   icon={<TwitterOutlined />}
-                  href="https://x.com/quant_tr"
+                  href="https://x.com/polyhermes"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="mobile-action-button"
@@ -107,7 +107,7 @@ const Header: React.FC = () => {
               <Button
                 type="link"
                 icon={<TwitterOutlined />}
-                href="https://x.com/quant_tr"
+                href="https://x.com/polyhermes"
                 target="_blank"
                 rel="noopener noreferrer"
               >
