@@ -8,7 +8,7 @@ const { Title, Paragraph } = Typography
 
 const Hero: React.FC = () => {
   const { t } = useTranslation()
-  
+
   return (
     <section className="hero-section">
       <div className="container hero-content">
@@ -24,9 +24,12 @@ const Hero: React.FC = () => {
             type="primary"
             size="large"
             icon={<RocketOutlined />}
-            href="https://github.com/WrBug/PolyHermes#%E9%83%A8%E7%BD%B2"
-            target="_blank"
-            rel="noopener noreferrer"
+            onClick={() => {
+              const element = document.getElementById('quickstart')
+              if (element) {
+                element.scrollIntoView({ behavior: 'smooth' })
+              }
+            }}
           >
             {t('hero.deploy')}
           </Button>
