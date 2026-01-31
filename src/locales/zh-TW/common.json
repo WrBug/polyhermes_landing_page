@@ -69,6 +69,10 @@
     "systemUpdate": {
       "title": "系統更新",
       "description": "支援線上系統更新，無需重啟 Docker 容器即可完成更新。自動備份和回滾，確保系統穩定性。"
+    },
+    "backtest": {
+      "title": "跟單回測",
+      "description": "對 Leader 的歷史交易進行回測分析，模擬跟單收益表現。可設定不同的跟單參數，評估策略效果，優化跟單配置。"
     }
   },
   "tech": {
@@ -95,22 +99,22 @@
   "quickstart": {
     "title": "快速開始",
     "subtitle": "使用 Docker 一鍵部署，幾分鐘內即可開始使用",
-    "recommended": "使用 Docker Hub 鏡像（推薦）",
-    "description": "適用於生產環境，無需下載專案程式碼，只需兩個檔案即可部署。",
-    "step1": "下載配置",
-    "step1Desc": "下載 docker-compose.prod.yml 和配置檔案",
-    "step2": "配置環境",
-    "step2Desc": "編輯 .env 檔案，設定資料庫密碼和金鑰",
-    "step3": "啟動服務",
-    "step3Desc": "執行 docker-compose 啟動服務",
-    "step4": "存取系統",
-    "step4Desc": "開啟瀏覽器存取 http://localhost",
+    "oneLineInstall": "一鍵安裝",
+    "description": "複製並執行此命令即可自動部署 PolyHermes，腳本會引導您完成互動式配置。",
     "codeTitle": "部署命令",
+    "comment1": "一鍵安裝（推薦）",
+    "comment2": "或使用 wget",
+    "comment3": "腳本功能：",
+    "comment4": "建立 ~/polyhermes 工作目錄",
+    "comment5": "互動式配置（按 Enter 使用預設值）",
+    "comment6": "自動產生安全的隨機金鑰",
+    "comment7": "下載最新鏡像並部署",
     "copy": "複製",
     "copied": "已複製",
     "copySuccess": "程式碼已複製到剪貼簿",
     "copyFailed": "複製失敗，請手動複製",
     "viewDocs": "查看部署文件",
+    "moreOptions": "更多部署方式",
     "githubRepo": "GitHub 倉庫",
     "devDocs": "開發文件"
   },
@@ -125,4 +129,3 @@
     "disclaimer": "本軟體僅供學習和研究使用。使用本軟體進行交易的風險由使用者自行承擔。"
   }
 }
-

@@ -9,6 +9,7 @@ import {
   WalletOutlined,
   BarChartOutlined,
   SettingOutlined,
+  LineChartOutlined,
 } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
 import './Features.css'
@@ -59,6 +60,11 @@ const Features: React.FC = () => {
       descriptionKey: 'features.statistics.description',
     },
     {
+      icon: <LineChartOutlined />,
+      titleKey: 'features.backtest.title',
+      descriptionKey: 'features.backtest.description',
+    },
+    {
       icon: <SettingOutlined />,
       titleKey: 'features.systemManagement.title',
       descriptionKey: 'features.systemManagement.description',
@@ -80,8 +86,8 @@ const Features: React.FC = () => {
         <Row gutter={[24, 24]}>
           {features.map((feature, index) => (
             <Col xs={24} sm={12} lg={6} key={index}>
-              <Card 
-                className="feature-card" 
+              <Card
+                className="feature-card"
                 hoverable
                 style={{
                   animation: `fadeInUp 0.6s ease-out ${index * 0.1}s both`

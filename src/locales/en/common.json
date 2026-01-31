@@ -69,6 +69,10 @@
     "systemUpdate": {
       "title": "System Update",
       "description": "Support online system updates, no need to restart Docker container to complete updates. Automatic backup and rollback to ensure system stability."
+    },
+    "backtest": {
+      "title": "Copy Trading Backtest",
+      "description": "Backtest analysis of Leader's historical trades, simulate copy trading performance. Configure different parameters to evaluate strategy effectiveness and optimize configurations."
     }
   },
   "tech": {
@@ -95,22 +99,22 @@
   "quickstart": {
     "title": "Quick Start",
     "subtitle": "One-click deployment with Docker, get started in minutes",
-    "recommended": "Using Docker Hub Image (Recommended)",
-    "description": "Suitable for production environments, no need to download project code, just two files to deploy.",
-    "step1": "Download Config",
-    "step1Desc": "Download docker-compose.prod.yml and config files",
-    "step2": "Configure Environment",
-    "step2Desc": "Edit .env file, set database password and keys",
-    "step3": "Start Service",
-    "step3Desc": "Run docker-compose to start the service",
-    "step4": "Access System",
-    "step4Desc": "Open browser and access http://localhost",
-    "codeTitle": "Deployment Commands",
+    "oneLineInstall": "One-liner Installation",
+    "description": "Copy and run this command to deploy PolyHermes automatically. The script will guide you through interactive configuration.",
+    "codeTitle": "Deployment Command",
+    "comment1": "One-liner Installation (Recommended)",
+    "comment2": "Or using wget",
+    "comment3": "What the script does:",
+    "comment4": "Creates ~/polyhermes working directory",
+    "comment5": "Interactive configuration (press Enter for defaults)",
+    "comment6": "Auto-generates secure random keys",
+    "comment7": "Downloads latest images and deploys",
     "copy": "Copy",
     "copied": "Copied",
     "copySuccess": "Code copied to clipboard",
     "copyFailed": "Copy failed, please copy manually",
     "viewDocs": "View Deployment Docs",
+    "moreOptions": "More Deployment Options",
     "githubRepo": "GitHub Repository",
     "devDocs": "Development Docs"
   },
@@ -125,4 +129,3 @@
     "disclaimer": "This software is for learning and research purposes only. Users bear all risks when using this software for trading."
   }
 }
-
