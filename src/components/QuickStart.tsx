@@ -11,20 +11,17 @@ const QuickStart: React.FC = () => {
   const [copied, setCopied] = useState(false)
 
   // 代码内容保持英文，因为这是实际的命令
-  const codeContent = `# 1. Create deployment directory
-mkdir polyhermes && cd polyhermes
+  const codeContent = `# One-liner Installation (Recommended)
+mkdir -p ~/polyhermes && cd ~/polyhermes && curl -fsSL https://raw.githubusercontent.com/WrBug/PolyHermes/main/deploy-interactive.sh -o deploy.sh && chmod +x deploy.sh && ./deploy.sh
 
-# 2. Download config files
-curl -O https://raw.githubusercontent.com/WrBug/PolyHermes/main/docker-compose.prod.yml
-curl -O https://raw.githubusercontent.com/WrBug/PolyHermes/main/docker-compose.prod.env.example
+# Or using wget
+mkdir -p ~/polyhermes && cd ~/polyhermes && wget -O deploy.sh https://raw.githubusercontent.com/WrBug/PolyHermes/main/deploy-interactive.sh && chmod +x deploy.sh && ./deploy.sh
 
-# 3. Create config file
-cp docker-compose.prod.env.example .env
-
-# 4. Edit .env file, modify required configuration
-
-# 5. Start service
-docker-compose -f docker-compose.prod.yml up -d`
+# What the script does:
+# - Creates ~/polyhermes working directory
+# - Interactive configuration (press Enter for defaults)  
+# - Auto-generates secure random keys
+# - Downloads latest images and deploys`
 
   const handleCopy = async () => {
     try {
