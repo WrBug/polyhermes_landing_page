@@ -73,6 +73,10 @@
     "backtest": {
       "title": "跟單回測",
       "description": "對 Leader 的歷史交易進行回測分析，模擬跟單收益表現。可設定不同的跟單參數，評估策略效果，優化跟單配置。"
+    },
+    "cryptoTailStrategy": {
+      "title": "加密尾盤策略",
+      "description": "針對加密分鐘市場的尾盤自動策略：配置時間窗口與價差條件，基於訂單簿 WebSocket 觸發下單，支援固定價 0.99、自動價差與結算收益統計。"
     }
   },
   "tech": {

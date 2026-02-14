@@ -73,6 +73,10 @@
     "backtest": {
       "title": "Copy Trading Backtest",
       "description": "Backtest analysis of Leader's historical trades, simulate copy trading performance. Configure different parameters to evaluate strategy effectiveness and optimize configurations."
+    },
+    "cryptoTailStrategy": {
+      "title": "Crypto Tail Strategy",
+      "description": "Tail-session auto strategy for crypto minute markets: set time window and spread conditions, trigger orders via order book WebSocket, fixed price 0.99, auto spread and settlement PnL stats."
     }
   },
   "tech": {

@@ -10,6 +10,7 @@ import {
   BarChartOutlined,
   SettingOutlined,
   LineChartOutlined,
+  ThunderboltOutlined,
 } from '@ant-design/icons'
 import { useTranslation } from 'react-i18next'
 import './Features.css'
@@ -63,6 +64,11 @@ const Features: React.FC = () => {
       icon: <LineChartOutlined />,
       titleKey: 'features.backtest.title',
       descriptionKey: 'features.backtest.description',
+    },
+    {
+      icon: <ThunderboltOutlined />,
+      titleKey: 'features.cryptoTailStrategy.title',
+      descriptionKey: 'features.cryptoTailStrategy.description',
     },
     {
       icon: <SettingOutlined />,
